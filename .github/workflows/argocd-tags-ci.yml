@@ -60,7 +60,7 @@ jobs:
         env
 
     - name: Create GlueOps Tags
-      uses: Glueops/github-actions-create-container-tags@main
+      uses: Glueops/github-actions-create-container-tags@9fb06d7bcf8e195842bf5a923d029cef236d83c0 # main
       id: create-tags
 
     - name: Get Container Tag for Release/Repository Tag
