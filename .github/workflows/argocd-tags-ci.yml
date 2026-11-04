@@ -37,10 +37,10 @@ jobs:
 
     steps:
     - name: Checkout Code
-      uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
+      uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
 
     - name: Checkout Config Repo
-      uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
+      uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
       with:
         repository: '${{ github.repository_owner }}/${{ inputs.DEPLOYMENT_CONFIGS_REPO }}'
         path: './${{ inputs.DEPLOYMENT_CONFIGS_REPO }}'
